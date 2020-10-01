@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binus Relawan Digital</title>
+    <link rel="stylesheet" href="brd.css">
+</head>
+<script src="home.js"></script>
+<header>
+    <div class="judul">
+        Binus Relawan Digital (BRD)
+    </div>
+</header>
+
+<body style="background-color: rgba(20, 20, 20, 0.815);">
+    <div class="content">
+        <form onsubmit="myFunction()">   
+            <marquee behavior="" direction="">Isi Data diri anda</marquee>
+            <table align="center">
+                
+                <tr>
+                    <td>Nama</td> <br>
+                    
+                </tr>
+                <tr>
+                    <td><input type="text" size="54" name="nama" id="nama"></td> <br>
+
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                </tr>
+                <tr>
+                    <td><textarea id="alamat" rows="4" cols="50"></textarea></td> <br>
+                </tr>
+                <tr>
+                    <td>Nomor Handhphone</td>
+                </tr>
+                <tr>
+                        <td><input type="text" size="54" name="hp" id="hp"></td> <br>
+                </tr>
+                
+            </table>
+            <br>
+                    <div class="kerja">
+                        Pekerjaan
+                    </div>
+                    <div id="rd">
+                        <input type="radio"  name="job" id="mh" value="mahasiswa">
+                        <label for="mahasiswa">Mahasiswa</label>
+                        <input type="radio"  name="job" id="d" value="dosen">
+                        <label for="dosen ">Dosen</label>
+                        <input type="radio"  name="job" id="s" value="staff">
+                        <label for="staff">Staff Binus</label>
+                    </div>
+                    <br>
+                    <div class="sm">
+                        Social Media
+                    </div>
+                    
+                    <div id="social">
+                        <input type="checkbox" name="fb"  value="facebook">
+                        <label for="fb">Facebook</label> 
+                        <input type="checkbox"  name="ig" value="instagram" >
+                        <label for="ig">Instagram</label> 
+                        <input type="checkbox" name="yt" value="youtube" >
+                        <label for="yt">Youtube</label> 
+                        <input type="checkbox" name="bl" value="blogger" >
+                        <label for="blog">Blogger</label> 
+                    </div>
+                    
+                    
+                    <br>
+                    <div class="link">
+                        Link Social Media 
+                    </div>
+                    <div id="sText">
+                        <textarea id="linktext" rows="4" cols="50"></textarea>
+                    </div>        
+                    <br>
+                    <div class="wrapt">
+                        <button class="btn" type="submit" onclick="myFunction()">Submit</button>
+                    </div>
+        </form>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.content{
+    width: 35%;
+    margin: 32%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(109, 3, 3);
+    background-color: rgba(132, 143, 129, 0.479);
+    
+}
+.judul{
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(50, 235, 216);
+}
+.kerja{
+    text-align: center;
+}
+#rd{
+    text-align: center;
+}
+.sm{
+    text-align: center;
+}
+#social{
+    text-align: center;
+}
+.link{
+   text-align: center;
+}
+#sText{
+    text-align: center;
+}
+.wrapt{
+    text-align: center;
+}
+.btn{
+    padding: 15px 60px;
+    text-align: center;
+   
+    
+}
